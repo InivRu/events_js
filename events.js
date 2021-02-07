@@ -5,12 +5,13 @@
  * Time: 20:12
  *
  * Обработка событий
+ * let events = new Events();
  *
- * Events.add('onOrder', function(data) {
+ * events.add('onOrder', function(data) {
  *     console.log('Номер заказа' + data.number);
  * });
  *
- * Events.do('onOrder', {number: 1});
+ * events.do('onOrder', {number: 1});
  */
 
 class Events {
